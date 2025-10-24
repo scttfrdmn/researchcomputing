@@ -63,7 +63,7 @@ See the [Ecosystem Overview](/ecosystem/overview) for detailed architecture.
 - **orca** (v0.6.0-beta) - Kubernetes burst computing
 
 ### Production Ready
-- **cloudworkspaces** (v1.2.0) - Interactive workstations
+- **cloudworkstation** (v1.2.0) - Interactive workstations
 
 ## Timeline
 

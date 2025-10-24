@@ -1,12 +1,12 @@
-# 🖥️ cloudworkspaces
+# 🖥️ cloudworkstation
 
 **Interactive research workstations in the cloud**
 
-[Visit cloudworkspaces.io →](https://cloudworkspaces.io) | [GitHub →](https://github.com/scttfrdmn/cloudworkspaces)
+[Visit cloudworkstation.io →](https://cloudworkstation.io) | [GitHub →](https://github.com/scttfrdmn/cloudworkstation)
 
 ## Overview
 
-cloudworkspaces provides pre-configured cloud workstations for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools, frameworks, and libraries pre-installed.
+cloudworkstation provides pre-configured cloud workstations for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools, frameworks, and libraries pre-installed.
 
 ## Key Features
 
@@ -89,42 +89,42 @@ graph TB
 ### Launch a Workstation
 
 ```bash
-# Install cloudworkspaces CLI
-brew install cloudworkspaces
+# Install cloudworkstation CLI
+brew install cloudworkstation
 
 # List available workstation types
-cloudworkspaces list-types
+cloudworkstation list-types
 
 # Launch ML workstation
-cloudworkspaces launch \
+cloudworkstation launch \
   --type ml.g4dn.xlarge \
   --name my-ml-workspace \
   --storage 100
 
 # Connect via VSCode
-cloudworkspaces connect my-ml-workspace --vscode
+cloudworkstation connect my-ml-workspace --vscode
 
 # Or via SSH
-cloudworkspaces ssh my-ml-workspace
+cloudworkstation ssh my-ml-workspace
 ```
 
 ### Manage Workstations
 
 ```bash
 # List running workstations
-cloudworkspaces list
+cloudworkstation list
 
 # Stop workstation (preserves data)
-cloudworkspaces stop my-ml-workspace
+cloudworkstation stop my-ml-workspace
 
 # Start stopped workstation
-cloudworkspaces start my-ml-workspace
+cloudworkstation start my-ml-workspace
 
 # Create snapshot
-cloudworkspaces snapshot my-ml-workspace --name experiment-1
+cloudworkstation snapshot my-ml-workspace --name experiment-1
 
 # Delete workstation
-cloudworkspaces delete my-ml-workspace
+cloudworkstation delete my-ml-workspace
 ```
 
 ## Pre-Installed Software
@@ -161,7 +161,7 @@ cloudworkspaces delete my-ml-workspace
 - **cargoship** - Retrieve archived data for analysis
 
 ### Workflow
-1. Launch cloudworkspace for interactive development
+1. Launch cloudworkstation for interactive development
 2. Prototype and test on small datasets
 3. Scale to **atom** for production HPC runs
 4. Archive results with **cargoship**
@@ -172,10 +172,10 @@ cloudworkspaces delete my-ml-workspace
 
 ## Documentation
 
-- [Getting Started Guide](https://cloudworkspaces.io/docs/getting-started)
-- [Workstation Types](https://cloudworkspaces.io/docs/types)
-- [Storage and Data](https://cloudworkspaces.io/docs/storage)
-- [GPU Programming](https://cloudworkspaces.io/docs/gpu)
+- [Getting Started Guide](https://cloudworkstation.io/docs/getting-started)
+- [Workstation Types](https://cloudworkstation.io/docs/types)
+- [Storage and Data](https://cloudworkstation.io/docs/storage)
+- [GPU Programming](https://cloudworkstation.io/docs/gpu)
 
 ## Technology Stack
 
@@ -193,13 +193,13 @@ cloudworkspaces delete my-ml-workspace
 
 ## Contributing
 
-Contributions welcome! See the [contribution guide](https://github.com/scttfrdmn/cloudworkspaces/blob/main/CONTRIBUTING.md).
+Contributions welcome! See the [contribution guide](https://github.com/scttfrdmn/cloudworkstation/blob/main/CONTRIBUTING.md).
 
 ## Support
 
-- **Documentation:** [cloudworkspaces.io](https://cloudworkspaces.io)
-- **Issues:** [GitHub Issues](https://github.com/scttfrdmn/cloudworkspaces/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/scttfrdmn/cloudworkspaces/discussions)
+- **Documentation:** [cloudworkstation.io](https://cloudworkstation.io)
+- **Issues:** [GitHub Issues](https://github.com/scttfrdmn/cloudworkstation/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/scttfrdmn/cloudworkstation/discussions)
 
 ---
 

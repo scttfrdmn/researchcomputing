@@ -2,7 +2,7 @@
 
 **Enterprise data archiving for research**
 
-[GitHub →](https://github.com/scttfrdmn/cargoship)
+[Visit cargoship.io →](https://cargoship.io) | [GitHub →](https://github.com/scttfrdmn/cargoship)
 
 ## Overview
 
@@ -195,8 +195,8 @@ cargoship archive \
   --source s3://atom-results/$(cat job-id.txt)/ \
   --name "GEOS-Chem Run $(cat job-id.txt)"
 
-# Archive cloudworkspaces data
-cloudworkspaces export my-workspace --to /tmp/workspace-data
+# Archive cloudworkstation data
+cloudworkstation export my-workspace --to /tmp/workspace-data
 cargoship archive \
   --path /tmp/workspace-data \
   --name "ML Experiment Workspace"
@@ -212,7 +212,7 @@ cargoship archive \
 cargoship can automatically archive results from other ResearchComputing tools:
 
 - **atom** - Archive job results after completion
-- **cloudworkspaces** - Archive workspace snapshots
+- **cloudworkstation** - Archive workspace snapshots
 - **lens** - Archive notebooks and environments
 - **S3 buckets** - Automatic lifecycle policies
 
@@ -266,10 +266,10 @@ cargoship estimate \
 
 ## Documentation
 
-- [Getting Started Guide](https://github.com/scttfrdmn/cargoship/blob/main/docs/getting-started.md)
-- [Storage Tiers Guide](https://github.com/scttfrdmn/cargoship/blob/main/docs/storage-tiers.md)
-- [Lifecycle Policies](https://github.com/scttfrdmn/cargoship/blob/main/docs/lifecycle.md)
-- [Retrieval Guide](https://github.com/scttfrdmn/cargoship/blob/main/docs/retrieval.md)
+- [Getting Started Guide](https://cargoship.io/docs/getting-started)
+- [Storage Tiers Guide](https://cargoship.io/docs/storage-tiers)
+- [Lifecycle Policies](https://cargoship.io/docs/lifecycle)
+- [Retrieval Guide](https://cargoship.io/docs/retrieval)
 
 ## Technology Stack
 
@@ -291,7 +291,7 @@ Contributions welcome! See the [contribution guide](https://github.com/scttfrdmn
 
 ## Support
 
-- **Documentation:** [GitHub Wiki](https://github.com/scttfrdmn/cargoship/wiki)
+- **Documentation:** [cargoship.io](https://cargoship.io)
 - **Issues:** [GitHub Issues](https://github.com/scttfrdmn/cargoship/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/scttfrdmn/cargoship/discussions)
 

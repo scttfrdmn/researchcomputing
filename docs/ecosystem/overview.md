@@ -11,7 +11,7 @@ graph TB
     end
 
     subgraph "Interactive Computing"
-        CW[🖥️ cloudworkspaces<br/>Workstations]
+        CW[🖥️ cloudworkstation<br/>Workstations]
         Lens[🔬 lens<br/>Notebooks]
     end
 
@@ -60,7 +60,7 @@ Research-focused AWS account management that handles:
 
 ### Interactive Computing Layer
 
-#### 🖥️ cloudworkspaces
+#### 🖥️ cloudworkstation
 Pre-configured cloud workstations for interactive work:
 - GPU-powered workstations
 - Pre-installed ML frameworks
@@ -122,11 +122,11 @@ Enterprise data archiving:
 ### Pattern 1: Full Research Lifecycle
 
 ```
-petri → cloudworkspaces → atom → cargoship
+petri → cloudworkstation → atom → cargoship
 ```
 
 1. **petri** provisions AWS account for research lab
-2. **cloudworkspaces** provides interactive environment for exploration
+2. **cloudworkstation** provides interactive environment for exploration
 3. **atom** runs production HPC simulations
 4. **cargoship** archives results for long-term storage
 
@@ -167,12 +167,12 @@ On-Prem K8s → orca → AWS Batch → cargoship
 ### Pattern 4: Teaching and Workshops
 
 ```
-petri → lens + cloudworkspaces
+petri → lens + cloudworkstation
 ```
 
 1. **petri** provisions temporary accounts for class
 2. **lens** provides notebook environments for students
-3. **cloudworkspaces** offers GPU access for advanced students
+3. **cloudworkstation** offers GPU access for advanced students
 
 **Use Case:** University computational science course
 

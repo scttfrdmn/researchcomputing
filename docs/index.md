@@ -13,7 +13,7 @@ graph TB
     University[Research Institution] -->|Request Account| Petri[🧫 petri.io]
     Petri -->|Provision| AWS[AWS Account]
 
-    AWS --> CW[🖥️ cloudworkspaces.io]
+    AWS --> CW[🖥️ cloudworkstation.io]
     AWS --> Lens[🔬 lenslab.io]
     AWS --> ATOM[⚛️ atomhpc.io]
 
@@ -49,7 +49,7 @@ Research-focused AWS account management that simplifies cloud access for academi
 
 ---
 
-### 🖥️ [cloudworkspaces](https://cloudworkspaces.io)
+### 🖥️ [cloudworkstation](https://cloudworkstation.io)
 **Interactive Research Workstations**
 
 Pre-configured cloud workstations for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools pre-installed.
@@ -60,7 +60,7 @@ Pre-configured cloud workstations for data science, machine learning, and comput
 - GPU-accelerated computing
 - Collaborative research sessions
 
-[Learn more about cloudworkspaces →](ecosystem/cloudworkspaces.md)
+[Learn more about cloudworkstation →](ecosystem/cloudworkstation.md)
 
 ---
 
@@ -94,7 +94,7 @@ Cloud-native high-performance computing platform for running scientific applicat
 
 ---
 
-### 🚢 [cargoship](https://github.com/scttfrdmn/cargoship)
+### 🚢 [cargoship](https://cargoship.io)
 **Enterprise Data Archiving**
 
 S3-optimized long-term data storage and archiving system for research data. Manages data lifecycle, compression, and retrieval for cost-effective long-term storage.
@@ -132,7 +132,7 @@ The ResearchComputing ecosystem is designed with integration in mind. Here's how
 Start with **petri** to provision and manage AWS accounts for research groups.
 
 ### 2. **Development & Exploration**
-Use **cloudworkspaces** for interactive sessions or **lens** for notebook-based development.
+Use **cloudworkstation** for interactive sessions or **lens** for notebook-based development.
 
 ### 3. **Production Computing**
 Scale to **atom** for HPC batch workloads, or use **orca** to burst from on-premises Kubernetes.
@@ -167,7 +167,7 @@ Extend on-premises infrastructure to the cloud for burst capacity and specialize
 
 ## Getting Started
 
-1. **New to cloud research computing?** Start with [cloudworkspaces](https://cloudworkspaces.io) for interactive sessions
+1. **New to cloud research computing?** Start with [cloudworkstation](https://cloudworkstation.io) for interactive sessions
 2. **Running HPC workloads?** Check out [atom](https://atomhpc.io) for batch computing
 3. **Managing institutional accounts?** Explore [petri](https://petri.io) for account management
 4. **Need development environments?** Try [lens](https://lenslab.io) for Jupyter and RStudio

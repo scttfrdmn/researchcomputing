@@ -16,10 +16,10 @@ For general questions about ResearchComputing:
 - **Discussions**: [github.com/scttfrdmn/petri/discussions](https://github.com/scttfrdmn/petri/discussions)
 - **Docs**: [petri.io](https://petri.io)
 
-#### 🖥️ cloudworkspaces - Interactive Workstations
-- **Issues**: [github.com/scttfrdmn/cloudworkspaces/issues](https://github.com/scttfrdmn/cloudworkspaces/issues)
-- **Discussions**: [github.com/scttfrdmn/cloudworkspaces/discussions](https://github.com/scttfrdmn/cloudworkspaces/discussions)
-- **Docs**: [cloudworkspaces.io](https://cloudworkspaces.io)
+#### 🖥️ cloudworkstation - Interactive Workstations
+- **Issues**: [github.com/scttfrdmn/cloudworkstation/issues](https://github.com/scttfrdmn/cloudworkstation/issues)
+- **Discussions**: [github.com/scttfrdmn/cloudworkstation/discussions](https://github.com/scttfrdmn/cloudworkstation/discussions)
+- **Docs**: [cloudworkstation.io](https://cloudworkstation.io)
 
 #### 🔬 lens - Notebook Environments
 - **Issues**: [github.com/scttfrdmn/lens/issues](https://github.com/scttfrdmn/lens/issues)

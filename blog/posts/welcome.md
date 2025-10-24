@@ -18,7 +18,7 @@ Welcome to the ResearchComputing blog! I'm excited to introduce a unified platfo
 ResearchComputing is an integrated ecosystem of tools designed to support the entire research computing lifecycle:
 
 - **🧫 petri** - Research-focused AWS account management
-- **🖥️ cloudworkspaces** - Interactive cloud workstations
+- **🖥️ cloudworkstation** - Interactive cloud workstations
 - **🔬 lens** - Lab notebook environments (Jupyter, RStudio, VSCode)
 - **⚛️ atom** - Cloud-native HPC platform
 - **🚢 cargoship** - Enterprise data archiving

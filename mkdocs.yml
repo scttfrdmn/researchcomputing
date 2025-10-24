@@ -151,7 +151,7 @@ nav:
   - Ecosystem:
       - Overview: ecosystem/overview.md
       - petri: ecosystem/petri.md
-      - cloudworkspaces: ecosystem/cloudworkspaces.md
+      - cloudworkstation: ecosystem/cloudworkstation.md
       - lens: ecosystem/lens.md
       - atom: ecosystem/atom.md
       - cargoship: ecosystem/cargoship.md
