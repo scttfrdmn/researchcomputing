@@ -1,0 +1,11 @@
+authors:
+  scttfrdmn:
+    name: Scott Friedman
+    description: Creator of ResearchComputing
+    avatar: https://github.com/scttfrdmn.png
+    url: https://github.com/scttfrdmn
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/scttfrdmn
+      - icon: fontawesome/brands/twitter
+        link: https://twitter.com/scttfrdmn

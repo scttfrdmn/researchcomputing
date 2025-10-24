@@ -1,0 +1,10 @@
+/* Custom styles for ResearchComputing */
+
+/* Add custom styling here as needed */
+
+/* Example: Custom color for ecosystem project cards */
+.md-typeset .ecosystem-card {
+  border-left: 4px solid var(--md-primary-fg-color);
+  padding-left: 1rem;
+  margin: 1rem 0;
+}
