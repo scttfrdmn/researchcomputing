@@ -11,7 +11,7 @@ This repository contains the landing page and documentation for the ResearchComp
 ## Ecosystem Projects
 
 - **[petri](https://github.com/scttfrdmn/petri)** - Research-focused AWS account management
-- **[cloudworkstation](https://github.com/scttfrdmn/cloudworkstation)** - Interactive cloud workstations
+- **[prism](https://github.com/scttfrdmn/prism)** - Interactive cloud workspaces
 - **[lens](https://github.com/scttfrdmn/lens)** - Lab notebook environments (Jupyter, RStudio, VSCode)
 - **[atom](https://github.com/scttfrdmn/atom)** - Cloud-native HPC platform
 - **[cargoship](https://github.com/scttfrdmn/cargoship)** - Enterprise data archiving

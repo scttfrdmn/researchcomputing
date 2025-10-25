@@ -195,8 +195,8 @@ cargoship archive \
   --source s3://atom-results/$(cat job-id.txt)/ \
   --name "GEOS-Chem Run $(cat job-id.txt)"
 
-# Archive cloudworkstation data
-cloudworkstation export my-workspace --to /tmp/workspace-data
+# Archive prism workspace data
+prism export my-workspace --to /tmp/workspace-data
 cargoship archive \
   --path /tmp/workspace-data \
   --name "ML Experiment Workspace"
@@ -212,7 +212,7 @@ cargoship archive \
 cargoship can automatically archive results from other ResearchComputing tools:
 
 - **atom** - Archive job results after completion
-- **cloudworkstation** - Archive workspace snapshots
+- **prism** - Archive workspace snapshots
 - **lens** - Archive notebooks and environments
 - **S3 buckets** - Automatic lifecycle policies
 

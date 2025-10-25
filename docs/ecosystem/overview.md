@@ -11,7 +11,7 @@ graph TB
     end
 
     subgraph "Interactive Computing"
-        CW[🖥️ cloudworkstation<br/>Workstations]
+        Prism[🔷 prism<br/>Workspaces]
         Lens[🔬 lens<br/>Notebooks]
     end
 
@@ -24,11 +24,11 @@ graph TB
         Cargo[🚢 cargoship<br/>Archive]
     end
 
-    Petri -->|Provisions| CW
+    Petri -->|Provisions| Prism
     Petri -->|Provisions| Lens
     Petri -->|Provisions| ATOM
 
-    CW -->|Store Results| Cargo
+    Prism -->|Store Results| Cargo
     Lens -->|Store Results| Cargo
     ATOM -->|Store Results| Cargo
     ORCA -->|Store Results| Cargo
@@ -36,7 +36,7 @@ graph TB
     ORCA -.->|Burst to| ATOM
 
     style Petri fill:#e1f5ff
-    style CW fill:#fff4e1
+    style Prism fill:#fff4e1
     style Lens fill:#ffe1f5
     style ATOM fill:#e1ffe1
     style Cargo fill:#f5e1ff
@@ -60,9 +60,9 @@ Research-focused AWS account management that handles:
 
 ### Interactive Computing Layer
 
-#### 🖥️ cloudworkstation
-Pre-configured cloud workstations for interactive work:
-- GPU-powered workstations
+#### 🔷 prism
+Pre-configured cloud workspaces for interactive work:
+- GPU-powered workspaces
 - Pre-installed ML frameworks
 - Data science environments
 - Collaborative sessions
@@ -122,11 +122,11 @@ Enterprise data archiving:
 ### Pattern 1: Full Research Lifecycle
 
 ```
-petri → cloudworkstation → atom → cargoship
+petri → prism → atom → cargoship
 ```
 
 1. **petri** provisions AWS account for research lab
-2. **cloudworkstation** provides interactive environment for exploration
+2. **prism** provides interactive environment for exploration
 3. **atom** runs production HPC simulations
 4. **cargoship** archives results for long-term storage
 
@@ -167,12 +167,12 @@ On-Prem K8s → orca → AWS Batch → cargoship
 ### Pattern 4: Teaching and Workshops
 
 ```
-petri → lens + cloudworkstation
+petri → lens + prism
 ```
 
 1. **petri** provisions temporary accounts for class
 2. **lens** provides notebook environments for students
-3. **cloudworkstation** offers GPU access for advanced students
+3. **prism** offers GPU access for advanced students
 
 **Use Case:** University computational science course
 

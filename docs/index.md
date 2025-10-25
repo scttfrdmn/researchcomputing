@@ -13,11 +13,11 @@ graph TB
     University[Research Institution] -->|Request Account| Petri[🧫 petri.io]
     Petri -->|Provision| AWS[AWS Account]
 
-    AWS --> CW[🖥️ cloudworkstation.io]
+    AWS --> Prism[🔷 prismcloud.io]
     AWS --> Lens[🔬 lenslab.io]
     AWS --> ATOM[⚛️ atomhpc.io]
 
-    CW -->|Results| Cargo[🚢 cargoship]
+    Prism -->|Results| Cargo[🚢 cargoship]
     Lens -->|Results| Cargo
     ATOM -->|Results| Cargo
 
@@ -25,7 +25,7 @@ graph TB
     ORCA -->|Scale to| AWS
 
     style Petri fill:#e1f5ff
-    style CW fill:#fff4e1
+    style Prism fill:#fff4e1
     style Lens fill:#ffe1f5
     style ATOM fill:#e1ffe1
     style Cargo fill:#f5e1ff
@@ -49,10 +49,10 @@ Research-focused AWS account management that simplifies cloud access for academi
 
 ---
 
-### 🖥️ [cloudworkstation](https://cloudworkstation.io)
-**Interactive Research Workstations**
+### 🔷 [prism](https://prismcloud.io)
+**Interactive Research Workspaces**
 
-Pre-configured cloud workstations for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools pre-installed.
+Pre-configured cloud workspaces for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools pre-installed.
 
 **Use Cases:**
 - Interactive data analysis
@@ -60,7 +60,7 @@ Pre-configured cloud workstations for data science, machine learning, and comput
 - GPU-accelerated computing
 - Collaborative research sessions
 
-[Learn more about cloudworkstation →](ecosystem/cloudworkstation.md)
+[Learn more about prism →](ecosystem/prism.md)
 
 ---
 
@@ -132,7 +132,7 @@ The ResearchComputing ecosystem is designed with integration in mind. Here's how
 Start with **petri** to provision and manage AWS accounts for research groups.
 
 ### 2. **Development & Exploration**
-Use **cloudworkstation** for interactive sessions or **lens** for notebook-based development.
+Use **prism** for interactive sessions or **lens** for notebook-based development.
 
 ### 3. **Production Computing**
 Scale to **atom** for HPC batch workloads, or use **orca** to burst from on-premises Kubernetes.
@@ -167,7 +167,7 @@ Extend on-premises infrastructure to the cloud for burst capacity and specialize
 
 ## Getting Started
 
-1. **New to cloud research computing?** Start with [cloudworkstation](https://cloudworkstation.io) for interactive sessions
+1. **New to cloud research computing?** Start with [prism](https://prismcloud.io) for interactive sessions
 2. **Running HPC workloads?** Check out [atom](https://atomhpc.io) for batch computing
 3. **Managing institutional accounts?** Explore [petri](https://petri.io) for account management
 4. **Need development environments?** Try [lens](https://lenslab.io) for Jupyter and RStudio

@@ -1,12 +1,12 @@
-# 🖥️ cloudworkstation
+# 🔷 prism
 
-**Interactive research workstations in the cloud**
+**Interactive research workspaces in the cloud**
 
-[Visit cloudworkstation.io →](https://cloudworkstation.io) | [GitHub →](https://github.com/scttfrdmn/cloudworkstation)
+[Visit prismcloud.io →](https://prismcloud.io) | [GitHub →](https://github.com/scttfrdmn/prism)
 
 ## Overview
 
-cloudworkstation provides pre-configured cloud workstations for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools, frameworks, and libraries pre-installed.
+prism provides pre-configured cloud workspaces for data science, machine learning, and computational research. Launch GPU-powered environments in minutes with common tools, frameworks, and libraries pre-installed.
 
 ## Key Features
 
@@ -65,7 +65,7 @@ graph TB
     style EC2 fill:#e1f5ff
 ```
 
-## Available Workstation Types
+## Available Workspace Types
 
 ### ML Development (ml.*)
 - **ml.g4dn.xlarge** - 1x NVIDIA T4, 4 vCPU, 16 GB RAM
@@ -86,45 +86,45 @@ graph TB
 
 ## Getting Started
 
-### Launch a Workstation
+### Launch a Workspace
 
 ```bash
-# Install cloudworkstation CLI
-brew install cloudworkstation
+# Install prism CLI
+brew install prism
 
-# List available workstation types
-cloudworkstation list-types
+# List available workspace types
+prism list-types
 
-# Launch ML workstation
-cloudworkstation launch \
+# Launch ML workspace
+prism launch \
   --type ml.g4dn.xlarge \
   --name my-ml-workspace \
   --storage 100
 
 # Connect via VSCode
-cloudworkstation connect my-ml-workspace --vscode
+prism connect my-ml-workspace --vscode
 
 # Or via SSH
-cloudworkstation ssh my-ml-workspace
+prism ssh my-ml-workspace
 ```
 
-### Manage Workstations
+### Manage Workspaces
 
 ```bash
-# List running workstations
-cloudworkstation list
+# List running workspaces
+prism list
 
-# Stop workstation (preserves data)
-cloudworkstation stop my-ml-workspace
+# Stop workspace (preserves data)
+prism stop my-ml-workspace
 
-# Start stopped workstation
-cloudworkstation start my-ml-workspace
+# Start stopped workspace
+prism start my-ml-workspace
 
 # Create snapshot
-cloudworkstation snapshot my-ml-workspace --name experiment-1
+prism snapshot my-ml-workspace --name experiment-1
 
-# Delete workstation
-cloudworkstation delete my-ml-workspace
+# Delete workspace
+prism delete my-ml-workspace
 ```
 
 ## Pre-Installed Software
@@ -161,7 +161,7 @@ cloudworkstation delete my-ml-workspace
 - **cargoship** - Retrieve archived data for analysis
 
 ### Workflow
-1. Launch cloudworkstation for interactive development
+1. Launch prism for interactive development
 2. Prototype and test on small datasets
 3. Scale to **atom** for production HPC runs
 4. Archive results with **cargoship**
@@ -172,10 +172,10 @@ cloudworkstation delete my-ml-workspace
 
 ## Documentation
 
-- [Getting Started Guide](https://cloudworkstation.io/docs/getting-started)
-- [Workstation Types](https://cloudworkstation.io/docs/types)
-- [Storage and Data](https://cloudworkstation.io/docs/storage)
-- [GPU Programming](https://cloudworkstation.io/docs/gpu)
+- [Getting Started Guide](https://prismcloud.io/docs/getting-started)
+- [Workspace Types](https://prismcloud.io/docs/types)
+- [Storage and Data](https://prismcloud.io/docs/storage)
+- [GPU Programming](https://prismcloud.io/docs/gpu)
 
 ## Technology Stack
 
@@ -193,13 +193,13 @@ cloudworkstation delete my-ml-workspace
 
 ## Contributing
 
-Contributions welcome! See the [contribution guide](https://github.com/scttfrdmn/cloudworkstation/blob/main/CONTRIBUTING.md).
+Contributions welcome! See the [contribution guide](https://github.com/scttfrdmn/prism/blob/main/CONTRIBUTING.md).
 
 ## Support
 
-- **Documentation:** [cloudworkstation.io](https://cloudworkstation.io)
-- **Issues:** [GitHub Issues](https://github.com/scttfrdmn/cloudworkstation/issues)
-- **Discussions:** [GitHub Discussions](https://github.com/scttfrdmn/cloudworkstation/discussions)
+- **Documentation:** [prismcloud.io](https://prismcloud.io)
+- **Issues:** [GitHub Issues](https://github.com/scttfrdmn/prism/issues)
+- **Discussions:** [GitHub Discussions](https://github.com/scttfrdmn/prism/discussions)
 
 ---
 
